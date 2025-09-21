@@ -186,7 +186,7 @@
         <li class="menu-item">
             <a href="{{route('test')}}" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-collection"></i>
-                <div data-i18n="Basic">Cards</div>
+                <div data-i18n="Basic">menu</div>
             </a>
         </li>
         <!-- User interface -->
