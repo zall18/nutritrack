@@ -77,34 +77,19 @@
             </a>
         </li>
         <li class="menu-item ">
-            <a href="{{route('test')}}" class="menu-link">
+            <a href="{{route('menu-planner')}}" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-food-tag"></i>
                 <div data-i18n="Analytics">Menu Planner</div>
             </a>
         </li>
-        <li class="menu-item">
-            <a href="javascript:void(0);" class="menu-link menu-toggle">
+        <li class="menu-item ">
+            <a href="{{route('journal')}}" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-food-menu"></i>
-                <div data-i18n="Layouts">Foods Journal</div>
+                <div data-i18n="Analytics">Journal Foods</div>
             </a>
-
-            <ul class="menu-sub">
-                <li class="menu-item">
-                    <a href="layouts-without-menu.html" class="menu-link">
-                        <div data-i18n="Without menu">Input Makanan</div>
-                    </a>
-                </li>
-            </ul>
-            <ul class="menu-sub">
-                <li class="menu-item">
-                    <a href="layouts-without-menu.html" class="menu-link">
-                        <div data-i18n="Without menu">Riwayat Harian</div>
-                    </a>
-                </li>
-            </ul>
         </li>
         <li class="menu-item ">
-            <a href="{{route('test')}}" class="menu-link">
+            <a href="{{route('report')}}" class="menu-link">
                 <i class="menu-icon tf-icons bx bxs-report"></i>
                 <div data-i18n="Analytics">Laporan</div>
             </a>
